@@ -206,10 +206,10 @@ summary(Credit)
 
 # we explicitly declare categorical variables as such (called 'factors' in R)
 
-Assessment    <- as.factor(Assessment)
-Housing     <- as.factor(Housing)
+Assessment <- as.factor(Assessment)
+Housing <- as.factor(Housing)
 MaritalStatus <- as.factor(MaritalStatus)
-Records   <- as.factor(Records)
+Records <- as.factor(Records)
 TypeOfJob <- as.factor(TypeOfJob)
 
 levels(Assessment)
@@ -307,7 +307,7 @@ boxplot(Credit.new[,9:16], outline=FALSE) # much better, but would be nicer one 
 
 # should we treat Age as categorical? probably not
 
-table(Age)                            
+table(Age)
 
 min(Age)                                                          
 max(Age)                                                          

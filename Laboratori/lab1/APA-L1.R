@@ -342,4 +342,4 @@ prediccions.regul <- pots %*% c
 
 (NMSE.VA.regul <- sum((valid.sample$target - prediccions.regul)^2)/((N.valid-1)*var(valid.sample$target)))
 
-# dóna 0.2368707, mentre que el model anterior, trobat per prova i error de M donava 0.2335588; és a dir, són dos models igualment bons, però el regularitzat s'ha trobat mitjançant un mecanisme de control de complexitat que és independent del métode (només afecta la funció d'error) i el paràmetre lambda és més fàcil d'ajustar i menys sensible a fluctuacions
+# dóna 0.2368707, mentre que el model anterior, trobat per prova i error de M donava 0.2335588; és a dir, són dos models igualment bons, però el regularitzat s'ha trobat mitjançant un mecanisme de control de complexitat que és independent del métode (només afecta la funció d'error) i el paràmetre lambda és més fàcil d'ajustar i menys sensible a fluctuacions)
